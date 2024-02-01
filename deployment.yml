@@ -6,8 +6,8 @@ spec:
   selector:
     app: store-pod
   ports:
-  - port: 8089
-    nodePort: 30889
+  - port: 8085
+    nodePort: 30878
     protocol: TCP
     targetPort: 80
   type: NodePort
