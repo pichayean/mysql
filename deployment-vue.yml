@@ -9,7 +9,7 @@ spec:
   - port: 8084
     nodePort: 30884
     protocol: TCP
-    targetPort: 80
+    targetPort: 8080
   type: NodePort
 
 ---
@@ -38,7 +38,7 @@ spec:
         - name: "ASPNETCORE_ENVIRONMENT"
           value: Production
         ports:
-        - containerPort: 80
+        - containerPort: 8080
           protocol: TCP
 
 ---
