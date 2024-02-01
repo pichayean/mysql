@@ -60,4 +60,4 @@ spec:
          service:
            name: backoffice-service
            port:
-             number: 80
+             number: 8080
